@@ -2,7 +2,7 @@
 name = "vaultintegration"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Anderson Caxias <andersondevmail@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -12,6 +12,8 @@ python-dotenv = "^0.19.2"
 psycopg2-binary = "^2.9.2"
 SQLAlchemy = "^1.4.27"
 databases = {version = "^0.5.3", extras = ["postgresql"]}
+Faker = "^10.0.0"
+boto3 = "^1.20.24"
 
 [tool.poetry.dev-dependencies]
 

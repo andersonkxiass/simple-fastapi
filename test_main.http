@@ -4,3 +4,13 @@ POST http://127.0.0.1:8000/
 Accept: application/json
 
 ###
+
+### Send POST request to create a User
+POST http://127.0.0.1:8000/users/
+Content-Type: application/json
+
+{
+  "name": "Admin",
+  "email": "admin@email.test",
+  "password": "123456"
+}
